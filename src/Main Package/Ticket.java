@@ -1,5 +1,16 @@
 public class Ticket {
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.project;
+
+/**
+ *
+ * @author Mega Store
+ */
+public class ticket {
     private int ticketNo;
     private int priority;
     private Customer owner;
@@ -27,6 +38,10 @@ public class Ticket {
     public void setOwner(Customer owner) {
         this.owner = owner;
     }
+    
+    
+    
+}
 
-
+    
 }
